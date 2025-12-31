@@ -1,0 +1,1 @@
+execute as @a[tag=player] run function dp:leave

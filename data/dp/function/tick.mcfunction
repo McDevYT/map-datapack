@@ -12,3 +12,7 @@ execute as @a[scores={disconnects=1..}, tag=!debugMode] run function dp:reconnec
 
 # Lobby tick function for every player
 execute as @a[tag=inLobby] at @s run function dp:lobby/player_tick
+
+execute as @a[tag=inLobby, scores={die=1..}] run function dp:leave
+
+execute if entity @p[tag=player] run function dp:game/tick

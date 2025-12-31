@@ -1,18 +1,15 @@
-tellraw @a [{"text":"Datapack reload: "},{"text": "OK","color": "#87e71a","bold": true}]
+tellraw @a [{"text":"Datapack reload: "},{"text": "SUCCESS","color": "#87e71a","bold": true}]
 
 team add lobby
 team modify lobby friendlyFire false
 
 scoreboard objectives add leave trigger
 scoreboard objectives add usedCarrot used:carrot_on_a_stick
+scoreboard objectives add die deathCount
 
 scoreboard objectives add disconnects minecraft.custom:minecraft.leave_game
 
-team add green
-team add red
-team add spectator
+scoreboard objectives add respawnTime dummy
 
-team modify green color green
-team modify green seeFriendlyInvisibles true
-team modify red color red
-team modify red seeFriendlyInvisibles true
+team add player
+team add spectator
