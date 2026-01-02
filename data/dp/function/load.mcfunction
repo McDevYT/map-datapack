@@ -7,6 +7,9 @@ scoreboard objectives add leave trigger
 scoreboard objectives add usedCarrot used:carrot_on_a_stick
 scoreboard objectives add die deathCount
 
+scoreboard objectives add oxigen dummy
+scoreboard objectives add jetpack dummy
+
 scoreboard objectives add disconnects minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add respawnTime dummy

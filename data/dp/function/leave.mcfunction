@@ -1,3 +1,4 @@
+attribute @s jump_strength base reset
 scoreboard players reset @s leave
 scoreboard players reset @s die
 scoreboard players reset @s respawnTime
@@ -5,8 +6,8 @@ scoreboard players reset @s respawnTime
 xp set @s 0 levels
 xp set @s 0 points
 
-tp @s 0 65 1000 0 0
-spawnpoint @s 0 65 1000 0 0
+tp @s 0 65 0 0 0
+spawnpoint @s 0 65 0 0 0
 
 clear @s
 

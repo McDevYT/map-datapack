@@ -3,4 +3,4 @@ scoreboard players reset @s die
 gamemode spectator @s
 tag @s add dead
 tag @s add respawning
-tp @s 0 100 0
+tp @s 1000 100 0
