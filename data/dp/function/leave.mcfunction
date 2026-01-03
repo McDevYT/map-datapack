@@ -26,4 +26,5 @@ gamemode adventure @s
 
 effect clear @s
 
-
+effect give @s saturation infinite 100 true
+effect give @s instant_health infinite 100 true
