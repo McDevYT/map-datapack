@@ -7,7 +7,7 @@ execute unless score @s jetpack matches 1.. run effect clear @s levitation
 
 function dp:game/jetpack/display_fuel
 
-execute as @s[tag=!dead] unless block ~ ~-0.2 ~ air run scoreboard players operation @s jetpack += jp_refill_speed settings
-execute as @s[tag=!dead] if predicate dp:press_space run scoreboard players operation @s jetpack -= jp_fuel_usage settings
+execute unless block ~ ~-0.2 ~ air run scoreboard players operation @s jetpack += jp_refill_speed settings
+execute if predicate dp:press_space run scoreboard players operation @s jetpack -= jp_fuel_usage settings
 execute if score @s jetpack matches ..0 run scoreboard players set @s jetpack 0
 execute if score @s jetpack > jp_max_tank settings run scoreboard players operation @s jetpack = jp_max_tank settings

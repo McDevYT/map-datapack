@@ -14,6 +14,9 @@ scoreboard objectives add settings dummy
 scoreboard objectives add constants dummy
 scoreboard players set 10 constants 10
 
+scoreboard objectives add game dummy
+scoreboard players set state game 0
+
 scoreboard objectives add disconnects minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add respawnTime dummy

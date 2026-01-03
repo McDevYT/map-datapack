@@ -4,7 +4,7 @@ tag @a[tag=player] remove queue
 tag @a[tag=player] add announcements
 
 team join player @a[tag=player]
-
+effect clear @a[tag=player]
 effect give @a[tag=player] slowness 4 100 true
 execute as @a[tag=player] run attribute @s jump_strength base set 0
 
