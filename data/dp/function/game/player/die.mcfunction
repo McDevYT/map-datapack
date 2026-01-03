@@ -1,3 +1,4 @@
+title @s clear
 scoreboard players set @s respawnTime 100
 scoreboard players reset @s die
 gamemode spectator @s

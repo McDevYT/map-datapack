@@ -1,0 +1,1 @@
+tp @s[tag=debugMode] 1000 65 0

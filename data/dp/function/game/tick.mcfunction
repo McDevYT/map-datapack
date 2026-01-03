@@ -1,3 +1,3 @@
 
 
-execute as @a[tag=player] at @s run function dp:game/player_tick
+execute as @a[tag=player] at @s run function dp:game/player/tick
