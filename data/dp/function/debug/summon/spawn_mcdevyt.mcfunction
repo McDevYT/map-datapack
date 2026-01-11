@@ -1,0 +1,1 @@
+execute positioned -6 65 -5 rotated -45 0 run function animated_java:mcdevyt/summon {args:{animation:"floating",start_animation:true}}

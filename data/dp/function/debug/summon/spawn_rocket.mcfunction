@@ -1,0 +1,1 @@
+execute positioned 0 66 -6 rotated 0 0 run function animated_java:rocket/summon {args:{animation:'rocket_idle', start_animation: true}}

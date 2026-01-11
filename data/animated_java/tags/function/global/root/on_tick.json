@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["animated_java:rocket/root/on_tick"]
+	"values": ["animated_java:mcdevyt/root/on_tick", "animated_java:rocket/root/on_tick", "animated_java:test/root/on_tick"]
 }

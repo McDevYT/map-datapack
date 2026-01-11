@@ -28,3 +28,7 @@ effect clear @s
 
 effect give @s saturation infinite 100 true
 effect give @s instant_health infinite 100 true
+
+function dp:lobby/give_hotbar
+
+execute unless entity @p[tag=player] run scoreboard players set gameState globalValues 0

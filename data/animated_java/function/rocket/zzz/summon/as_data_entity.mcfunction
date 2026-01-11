@@ -8,48 +8,12 @@ execute as @n[ type=minecraft:minecart, tag=aj.rocket.locator.locator, tag=aj.ne
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.locator_locator set from storage animated_java:gu out
 data modify entity @s data.locators.locator.uuid set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.pillar] run function animated_java:global/gu/get_entity_uuid_string
+execute on vehicle on passengers if entity @s[tag=aj.rocket.node.foot] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_pillar set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.thrust] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_thrust set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.pillar1] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_pillar1 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.pillar2] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_pillar2 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.pillar3] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_pillar3 set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_foot set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.rocket.node.top] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_top set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.top1] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_top1 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.top2] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_top2 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.top3] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_top3 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.roof] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_roof set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.window] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_window set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.window3] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_window3 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.window2] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_window2 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.rocket.node.window4] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_window4 set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.rocket.node.rocket] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_rocket set from storage animated_java:gu out
