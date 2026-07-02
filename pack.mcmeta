@@ -1,7 +1,8 @@
 {
-	"pack": {
-		"description": "Cool Datapack",
-		"min_format": 88,
-		"max_format": 9999999
-	}
+  "pack": {
+    "description": "Cool Datapack",
+    "min_format": 107.1,
+    "max_format": 9999999
+  }
 }
+

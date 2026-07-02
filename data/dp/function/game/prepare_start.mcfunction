@@ -11,7 +11,7 @@ execute as @a[tag=player] run attribute @s jump_strength base set 0
 
 item replace entity @a armor.head with glass[enchantments={binding_curse:true}, enchantment_glint_override=true]
 
-spreadplayers 1000 0 3 200 true @a[tag=player]
+spreadplayers 1000 0 3 200 under 150 true @a[tag=player]
 
 schedule function dp:game/start 4s
 scoreboard players set gameState globalValues 1
